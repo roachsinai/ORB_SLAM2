@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 project(ORB_SLAM2)
 
 IF(NOT CMAKE_BUILD_TYPE)
